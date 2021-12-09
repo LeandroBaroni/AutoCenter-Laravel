@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
 <head>
-    <title>Laravel do Zero - Leandro Baroni. </title>
+    <title>Lira Auto Center </title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta charset="utf-8"/>
@@ -9,7 +9,7 @@
     <meta name="theme-color" content="Blue"/>
     <meta charset="UTF-8"/>
     <meta name="description" content="Camerarius, raptus devatios inciviliter anhelare de festus, clemens luna. "/>
-    <meta name="author" itemprop="MMPX"/>
+    <meta name="author" itemprop="LeandroBaroni"/>
 
     <!-- Adicionar Favicon em todas as versões -->
     <link rel="shortcut icon" href="#" type="image/x-icon">
@@ -60,14 +60,14 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{route('site.products')}}">Produtos
-                        <span class="border-effect"></span>
-                    </a>
+{{--                    <a href="{{route('site.products')}}">Produtos--}}
+{{--                        <span class="border-effect"></span>--}}
+{{--                    </a>--}}
                 </li>
                 <li>
-                    <a href="{{route('site.blog')}}">Blog
-                        <span class="border-effect"></span>
-                    </a>
+{{--                    <a href="{{route('site.blog')}}">Blog--}}
+{{--                        <span class="border-effect"></span>--}}
+{{--                    </a>--}}
                 </li>
                 <li>
                     <a href="{{route('site.about')}}">Sobre
@@ -94,8 +94,8 @@
 <div id="resize">
     <ul id="menu">
         <li><a class="title-medium" href="{{route('site.home')}}">Página principal</a></li>
-        <li><a class="title-medium" href="{{route('site.products')}}">Produtos</a></li>
-        <li><a class="title-medium" href="{{route('site.blog')}}">Blog</a></li>
+{{--        <li><a class="title-medium" href="{{route('site.products')}}">Produtos</a></li>--}}
+{{--        <li><a class="title-medium" href="{{route('site.blog')}}">Blog</a></li>--}}
         <li><a class="title-medium" href="{{route('site.about')}}">Sobre</a></li>
         <li><a class="title-medium" href="{{route('site.contact')}}">Contato</a></li>
     </ul>
@@ -121,8 +121,8 @@
             <li class="footer__links">
                 <h4 class="title-small">Empresa</h4>
 {{--                <a href="{{route('site.products')}}">Nossos produtos</a>--}}
-{{--                <a href="{{route('site.about')}}">Sobre nós</a>--}}
-{{--                <a href="{{route('site.contact')}}">Entre em contato</a>--}}
+                <a href="{{route('site.about')}}">Sobre nós</a>
+                <a href="{{route('site.contact')}}">Entre em contato</a>
             </li>
             <li class="footer__links">
                 <h4 class="title-small">Contatos</h4>
@@ -134,9 +134,9 @@
 </footer>
 <section class="sub__footer">
     <div class="main-wrapper flex-container">
-        <a href="#"><img src="{{asset('images/Lock-icon.svg')}}">CMS</a>
+        <a href="#"><img src="{{asset('images/Lock-icon.svg')}}">Baroni</a>
         <p>Hercle, bursa bassus!. Cum lacta congregabo, omnes tataes captis velox, teres abactuses. </p>
-        <a href="http://mmpx.com.br/" target="_blank">Deisgn by <strong>MMPX</strong></a>
+        <a href="http://github.com/LeandroBaroni" target="_blank">Deisgn by <strong>LeandroBaroni</strong></a>
     </div>
 </section>
 
