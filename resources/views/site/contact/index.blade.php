@@ -72,11 +72,11 @@
                             <h3 class="title-small">Lumens nocere! </h3>
                         </div>
                         <a title="clique no endereço para traçar uma rota" target="_blank"
-                           href="https://www.google.com/maps/place/R.+Galdino+dos+Santos,+100+-+Jardim+Cambuci,+Pres.+Prudente+-+SP,+19045-010/@-22.1502207,-51.3791788,17z/data=!3m1!4b1!4m5!3m4!1s0x9493f5173fcfb679:0xdfaa9e9c6c41e31a!8m2!3d-22.1502257!4d-51.3769848">
-                            Rua Galdino dos Santos, 100<br>
+                           href="https://www.google.com/maps/place/Lira+auto+center+mec%C3%A2nica/@-22.1349229,-51.3873263,15z/data=!4m5!3m4!1s0x0:0xf7c73ca7e31aa4d9!8m2!3d-22.1349297!4d-51.3873438">
+                            Rua Antônio Rodrigues, 281<br>
                             Presidente Prudente<br>
-                            Jardim Cambuci - Presidente Prudente/SP<br>
-                            CEP: 19045-010
+                            Vila Mirian - Presidente Prudente/SP<br>
+                            CEP: 19013-220
                         </a>
                     </div>
                     <section class="contact__infos__social-media">
