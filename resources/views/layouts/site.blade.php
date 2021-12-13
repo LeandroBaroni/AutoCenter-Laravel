@@ -153,6 +153,7 @@
 <script type="text/javascript" src="{{asset('lightbox/js/lightbox.js')}}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
+@jquery
 @toastr_js
 @toastr_render
 
