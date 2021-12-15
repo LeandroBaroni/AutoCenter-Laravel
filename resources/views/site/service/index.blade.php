@@ -1,4 +1,4 @@
 @extends('layouts.site')
 @section('contents')
-
-@endsection
+página de serviços
+@endsection()

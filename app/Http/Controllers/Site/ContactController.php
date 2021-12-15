@@ -14,13 +14,16 @@ class ContactController extends Controller{
     }
 
     public function form(ContactFormRequest $request){
-
-        if (strlen($request->telefone) == 10) {
-            $request->telefone = preg_replace('~.*(\d{2})[^\d]{0,7}(^\d{4})[^\d]{0,7}(^\d{4}).*^~', '($1) $2-$3', $request->telefone);
-        }elseif(strlen($request->telefone) == 11){
-            $request->telefone = preg_replace('~.*(\d{2})[^\d]{0,7}(^\d{5})[^\d]{0,7}(^\d{4}).*^~', '($1) $2-$3', $request->telefone);
+        //Phone formact
+        $fone = $request->telefone;
+        if (strlen($request->telefone) === 10) {
+            $fone = "(".substr($request->telefone,0,2).") ".substr($request->telefone,2,4)."-".substr($request->telefone,6,10);
+        }elseif(strlen($request->telefone) === 11){
+            $fone = "(".substr($request->telefone,0,2).") ".substr($request->telefone,2,5)."-".substr($request->telefone,7,11);
         }
+        $request['telefone'] = $fone;
 
+        //create data in DB
         $contact = Contact::create($request->all());
         Notification::route('mail', config('leandro.baroni@fatec.sp.gov.br'))
             ->notify(New NewContact($contact));

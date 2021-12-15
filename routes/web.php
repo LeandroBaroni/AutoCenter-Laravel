@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::namespace('\App\Http\Controllers\Site')->group(function(){
     Route::get('/', 'HomeController')->name('site.home');
 
+    Route::view('/Servicos', 'site.service.index')->name('site.service');
+
     Route::view('/Sobre', 'site.about.index')->name('site.about');
 
     Route::get('Contato', 'ContactController@index')->name('site.contact');

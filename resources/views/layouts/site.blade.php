@@ -62,17 +62,12 @@
                     </a>
                 </li>
                 <li>
-{{--                    <a href="{{route('site.products')}}">Produtos--}}
-{{--                        <span class="border-effect"></span>--}}
-{{--                    </a>--}}
+                    <a href="{{route('site.service')}}">Serviços
+                        <span class="border-effect"></span>
+                    </a>
                 </li>
                 <li>
-{{--                    <a href="{{route('site.blog')}}">Blog--}}
-{{--                        <span class="border-effect"></span>--}}
-{{--                    </a>--}}
-                </li>
-                <li>
-                    <a href="{{route('site.about')}}">Sobre
+                    <a href="{{route('site.about')}}">Sobre Nós
                         <span class="border-effect"></span>
                     </a>
                 </li>
@@ -96,8 +91,7 @@
 <div id="resize">
     <ul id="menu">
         <li><a class="title-medium" href="{{route('site.home')}}">Página principal</a></li>
-{{--        <li><a class="title-medium" href="{{route('site.products')}}">Produtos</a></li>--}}
-{{--        <li><a class="title-medium" href="{{route('site.blog')}}">Blog</a></li>--}}
+        <li><a class="title-medium" href="{{route('site.service')}}">Serviços</a></li>
         <li><a class="title-medium" href="{{route('site.about')}}">Sobre</a></li>
         <li><a class="title-medium" href="{{route('site.contact')}}">Contato</a></li>
     </ul>
@@ -122,9 +116,9 @@
             </li>
             <li class="footer__links">
                 <h4 class="title-small">Empresa</h4>
-{{--                <a href="{{route('site.products')}}">Nossos produtos</a>--}}
-                <a href="{{route('site.about')}}">Sobre nós</a>
-                <a href="{{route('site.contact')}}">Entre em contato</a>
+                <a href="{{route('site.service')}}">Nossos Serviços</a>
+                <a href="{{route('site.about')}}">Sobre Nós</a>
+                <a href="{{route('site.contact')}}">Entre em Contato</a>
             </li>
             <li class="footer__links">
                 <h4 class="title-small">Contatos</h4>
